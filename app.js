@@ -1,6 +1,6 @@
 let Btn = document.querySelectorAll(".button-option");
-let pop = document.querySelector(".popup");
-let NewGame = document.getElementById("new-game");
+let Result = document.querySelector(".Result");
+let NewGame = document.getElementById("NewGame");
 let Restart = document.getElementById("Restart");
 let Message = document.getElementById("message");
 let winningPattern = [
@@ -18,14 +18,14 @@ let xTurn = true;
 let count = 0;
  const disableButtons = () => {
     Btn.forEach((element) => (element.disabled = true));
-    pop.classList.remove("hide");
+    Result.classList.remove("hide");
  };
 const enableButtons = () => {
     Btn.forEach(element => {
         element.innerText = "";
         element.disabled = false;
     });
-    pop.classList.add("hide");
+    Result.classList.add("hide");
 };
 
 const winFunction = (letter) => {

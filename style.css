@@ -46,7 +46,7 @@ html{
     margin: 10px auto;
     display: block;
 }
-.popup{
+.Result{
     background:gray;
     height: 100%;
     width: 100%;
@@ -61,7 +61,7 @@ html{
     background: url("./images/element5-digital-LTyDj7u_TU4-unsplash.jpg ");
 
 }
-#new-game{
+#NewGame{
     padding: 20px 30px;
     background-color: rgba(172, 255, 47, 0.589);
     font-size: 40px;
@@ -76,6 +76,6 @@ html{
    
 
 }
-.popup.hide{
+.Result.hide{
     display: none;
 }
