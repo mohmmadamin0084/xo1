@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;    
+     background: url("./images/element5-digital-LTyDj7u_TU4-unsplash.jpg ");
+
+}
+html{
+    font-size: 15px;   
+
+}
+
+.Display{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.container{
+    width: 415px;
+    height:450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.button-option{
+    background: rgba(255, 255, 255, 0.295);
+    height: 130px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    font-size: 100px;
+    color: rgba(172, 255, 47, 0.589);
+}
+#Restart{
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: rgba(172, 255, 47, 0.589);
+    color: white;
+    border: none;
+    position: relative;
+    margin: 10px auto;
+    display: block;
+}
+.popup{
+    background:gray;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 70px;
+    background: url("./images/element5-digital-LTyDj7u_TU4-unsplash.jpg ");
+
+}
+#new-game{
+    padding: 20px 30px;
+    background-color: rgba(172, 255, 47, 0.589);
+    font-size: 40px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+#message{
+    color: rgba(172, 255, 47, 0.589);
+    text-align: center;
+    font-size: 65px;
+   
+
+}
+.popup.hide{
+    display: none;
+}
